@@ -13,3 +13,6 @@ http.createServer(function (req, res) {
   res.end('Hello New York\n');
 }).listen(8080);
 console.log('Server running at http://localhost:8080/');
+
+## Run it
+node index.js
